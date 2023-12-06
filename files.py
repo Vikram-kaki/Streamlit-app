@@ -25,22 +25,22 @@ if img:
 
 # Videos
 
-st.subheader("Dealing with videos")
+# st.subheader("Dealing with videos")
 
-st.video(r"C:\Users\Asus\Videos\Captures\Student Guide - Brave 2023-09-29 09-46-10.mp4")
+# st.video(r"C:\Users\Asus\Videos\Captures\Student Guide - Brave 2023-09-29 09-46-10.mp4")
 
-vid = st.file_uploader("Upload you're file : ", type=['mp4', 'mkv'])
+# vid = st.file_uploader("Upload you're file : ", type=['mp4', 'mkv'])
 
-if vid:
-    st.video(vid)
+# if vid:
+#     st.video(vid)
 
 
-# Audios
-st.subheader("Working with Audio Files")
+# # Audios
+# st.subheader("Working with Audio Files")
 
-st.audio(r"C:\Users\Asus\Music\[iSongs.info] 08 - Yaalo Yaalaa.mp3")
+# st.audio(r"C:\Users\Asus\Music\[iSongs.info] 08 - Yaalo Yaalaa.mp3")
 
-aud = st.file_uploader("Upload the audio file : ", type=['mp3'])
+# aud = st.file_uploader("Upload the audio file : ", type=['mp3'])
 
-if aud:
-    st.audio(aud)
+# if aud:
+#     st.audio(aud)
